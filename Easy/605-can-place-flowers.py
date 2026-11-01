@@ -2,7 +2,7 @@
  * LeetCode #605: Can Place Flowers
  * Difficulty: Easy
  * Language: Python3
- * Date: 2026-11-01T14:53:45.766Z
+ * Date: 2026-11-01T14:54:01.981Z
  */
 
 class Solution:
