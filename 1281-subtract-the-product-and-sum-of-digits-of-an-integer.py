@@ -7,6 +7,8 @@ class Solution:
             d = n % 10
             n = n // 10
 
+            # n, d = divmod(n, 10)
+
             summ += d
             prod *= d
         return prod - summ
