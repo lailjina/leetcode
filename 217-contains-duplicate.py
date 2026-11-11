@@ -7,4 +7,4 @@ class Solution:
                     return True
                 seen.add(num)
             return False
-            
+    #return True if len(set(nums)) < len(nums) else False
