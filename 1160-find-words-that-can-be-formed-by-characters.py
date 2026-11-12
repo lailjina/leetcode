@@ -5,13 +5,7 @@ class Solution:
         ans = 0
 
         for w in words:
-            w_cnt = Counter(w)
-            good = True
-
-            for c, cnt in w_cnt.items():
-                if cnt > chars_cnt[c]:
-                    good = False
-            ans += len(w) if good else 0
+            ans += len(w) if chars_cnt >= Counter(w) else 0
         return ans
             
         
