@@ -12,3 +12,10 @@ class Solution:
             if cnt == 1:
                 ans += num
         return ans
+
+        # counter = Counter.{}
+
+        # for num, cnt in counter.items():
+        #     if cnt == 1:
+        #         ans += num
+        # return ans
