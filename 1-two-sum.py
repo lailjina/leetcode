@@ -3,8 +3,7 @@ class Solution:
         db = {}
 
         for i, num in enumerate(nums):
-            db[num] = i
-        for i, num in enumerate(nums):
             pair = target - num
-            if pair in db and db[pair] != i:
+            if pair in db:
                 return [db[pair],i]
+            db[num] = i
