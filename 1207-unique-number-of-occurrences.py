@@ -1,12 +1,7 @@
 class Solution:
     def uniqueOccurrences(self, arr: list[int]) -> bool:
-        arr_cnt = Counter(arr)
-        seen = set()
+        counts = Counter(arr).values()
 
-        for key, value in arr_cnt.items():
-            if value in seen:
-                return False
-            seen.add(value)
-        return True
+        return len(counts) == len(set(counts))
 
 
